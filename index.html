@@ -9,58 +9,32 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <nav class="navbar">
-            <img src="https://bsstrades.com/index/oldfavicon.png" alt="Website Logo">
-            <div class="nav-center">
-                <div class="nav-links">
-                    <a href="/">Home</a>
-                    <!--<a>Trade Ads</a>-->
-                    <!--<a>Hive Builder</a>-->
-                    <a href="/informations">About</a>
-                    <a href="/donate">Donate</a>
-                    <!--<a>Contact us</a>-->
-                </div>
-            </div>
-        </nav>
-        <div id="patch-note-popup" class="popup">
-            <div class="popup-content">
-                <span class="close">&times;</span>
-                <h2>Patch Notes</h2>
-                <p>⚠️UPDATES⚠️</p>
-                <ul>
-                    <li>NEW UI 🐦‍🔥.</li>
-                    <li>Bug Fixes 🔧.</li>
-                    <li>New Filters📜.</li>
-                    <li>Donation Page 📑.</li>
-                </ul>
-            </div>
-        </div>
-        <div class="devtext">You can swap stickers positions by drag-dropping them! ✅</div>
+        <div class="devtext">Вы можете менять местами наклейки, перетаскивая их! ✅</div>
         <div class="container">
             <div class="header">
                 <h1>
                     <img src="https://bsstrades.com/csscontentTV/stickerscat_icon.png" alt="Text Deco Icon">
-                    Trade Offer Creator<img src="https://bsstrades.com/csscontentTV/stickerscat_icon.png" alt="Text Deco Icon">
+                   Создает ваше предложение для обмена<img src="https://bsstrades.com/csscontentTV/stickerscat_icon.png" alt="Text Deco Icon">
                 </h1>
             </div>
             <div class="main">
                 <div class="section" id="to-offer">
-                    <h2 class="offering">Offering</h2>
+                    <h2 class="offering">Вы предлагаите</h2>
                     <div class="items" id="to-offer-items" data-section="to-offer"></div>
                     <div class="button-container">
                         <button class="rotate-button" onclick="openModal('to-offer')">
-                            <img src="https://bsstrades.com/index/hive_stickers/Hivesticker_green_plus_sign.webp">Add Item
+                            <img src="https://bsstrades.com/index/hive_stickers/Hivesticker_green_plus_sign.webp">Добавить наклейку
                         </button>
                         <button class="rotate-button" onclick="clearSection('to-offer-items')">
-                            <img src="https://bsstrades.com/index/hive_stickers/Hivesticker_red_x.webp">Clear All
+                            <img src="https://bsstrades.com/index/hive_stickers/Hivesticker_red_x.webp">Очистить все
                         </button>
                     </div>
                 </div>
                 <div>
-                    <img class="divider" src="https://bsstrades.com/csscontentTV/NewAltFuture.png" alt="Trade Arrows">
+                    <img class="divider" src="/images/Images-tarrows2.png" alt="Trade Arrows">
                 </div>
                 <div class="section" id="looking-for">
-                    <h2 class="receiving">Looking For</h2>
+                    <h2 class="receiving">Вам нужни</h2>
                     <div class="items" id="looking-for-items" data-section="to-offer"></div>
                     <div class="button-container">
                         <button class="rotate-button" onclick="openModal('looking-for')">
@@ -75,26 +49,6 @@
             <div class="slot-menu">
                 <div id="slots-container"></div>
             </div>
-            <h2 class="h2ss">Screenshot your trade to share it!</h2>
-            <div class="mediabutton-container">
-                <a href="https://discord.gg/X2r7V6uAfu" class="mediabutton button-anim">
-                    <img src="https://bsstrades.com/csscontentTV/Discord.png" alt="Discord">Discord
-            
-                </a>
-                <a href="https://www.youtube.com/@AlmostToad/videos" class="mediabutton button-anim">
-                    <img src="https://bsstrades.com/csscontentTV/Youtube.png" alt="Youtube">Youtube
-            
-                </a>
-                <a href="https://www.roblox.com/users/429937011/profile" class="mediabutton button-anim">
-                    <img src="https://bsstrades.com/csscontentTV/Roblox.png" alt="Roblox">Roblox Profile
-            
-                </a>
-            </div>
-        </div>
-        <h2 class="h2ss">SUPPORT THE YOUTUBE CHANNEL!</h2>
-        <div class="share-container" id="copyButton">Share website!</div>
-        <div class="video-container">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/yqPnzUC7L94" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <!-- Primary Modal -->
         <div id="imageModal" class="modal">
